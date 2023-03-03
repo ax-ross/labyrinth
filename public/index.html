@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Лабиринт</title>
+</head>
+<body>
+    <div id="labyrinth-size">
+        <div id="labyrinth-height">
+            <label>
+                Введите высоту лабиринта:
+                <input type="number" min="1" max="100" id="height" required>
+            </label>
+            <div id="height-validation-error">
+
+            </div>
+        </div>
+        <div id="labyrinth-width">
+            <label>
+                Введите ширину лабиринта:
+                <input type="number" min="1" max="100" id="width" required />
+            </label>
+            <div id="width-validation-error">
+
+            </div>
+        </div>
+
+        <button onclick="createLabyrinthForm()" id="create-labyrinth-button">Создать лабиринт</button>
+    </div>
+    <div id="labyrinth">
+
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
