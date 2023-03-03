@@ -10,5 +10,5 @@ http://127.0.0.1
 ```
 ### Запуск консольного интерфейса:
 ```
-docker-compose exec app php labytinth-cli.php
+docker-compose exec app php labyrinth-cli.php
 ```
